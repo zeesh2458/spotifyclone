@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    width: 100vw;
+}
+
+nav ul li {
+    padding: 10px;
+    color: white;
+    margin: 5px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+span {
+    position: relative;
+    left: 5px;
+}
+
+.container {
+    min-height: 59vh;
+    background: black url("bg.jpg") no-repeat right;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.icons {
+    margin-top: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+
+    color: black;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.songItem img {
+    width: 50px;
+    margin: 0 20px;
+    border-radius: 35px;
+}
+
+.timestamp {
+    margin: 0 20px;
+
+}
+
+.timestamp i {
+
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 8.5vw;
+    font-size: 12px;
+    margin: 0 10px;
+    bottom: 12px;
+}
+
+#masterSongName {
+    position: relative;
+    bottom: 15px;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
+#previous {
+    position: relative;
+    right: 15px;
+}
+
+#next {
+    position: relative;
+    left: 15px;
+}
+
+.foot {
+    position: relative;
+    left: 480px;
+    bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
